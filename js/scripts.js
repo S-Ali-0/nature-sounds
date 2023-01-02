@@ -1,10 +1,10 @@
-const oceanbtn = document.getElementById('ocean');
+const seabtn = document.getElementById('sea');
 const rainbtn = document.getElementById('rain');
 const forestbtn = document.getElementById('forest');
 
-oceanbtn.addEventListener('click', function onClick(event) {
+seabtn.addEventListener('click', function onClick(event) {
   
-    document.body.style.background = "url('./images/6.jpg') no-repeat center center fixed";
+    document.body.style.background = "url('./images/3.jpg') no-repeat center center fixed";
     document.body.style.backgroundSize = 'cover';
     document.body.style.transition = '0.01s';
 
@@ -12,7 +12,7 @@ oceanbtn.addEventListener('click', function onClick(event) {
 
 rainbtn.addEventListener('click', function onClick(event) {
   
-    document.body.style.background = "url('./images/3.jpg') no-repeat center center fixed";
+    document.body.style.background = "url('./images/7.jpg') no-repeat center center fixed";
     document.body.style.backgroundSize = 'cover';
     document.body.style.transition = '0.01s';
 });
