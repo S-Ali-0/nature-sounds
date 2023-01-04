@@ -31,8 +31,10 @@ function toggleDiv() {
     let x = document.getElementById("nature");
     if (x.style.display === "none") {
       x.style.display = "block";
+      document.getElementById('toggle-div').innerHTML = "Hide Menu";
     } else {
       x.style.display = "none";
+      document.getElementById('toggle-div').innerHTML = "Show Menu";
     }
 }
 
@@ -44,3 +46,17 @@ function playBtn() {
       element.className = "ri-play-fill";
     }
   }
+
+
+  
+  function playAudio() {
+    let audioElement= document.getElementById("forest-audio");
+    if (audioElement.paused) {
+        audioElement.play();
+    }
+    else {
+        audioElement.pause();
+    }
+};
+
+ 

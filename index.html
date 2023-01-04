@@ -17,10 +17,13 @@
             <button id="forest">Forest</button>
         </div>
         <div class="timer-container">
-            <i onclick="playBtn()" class="ri-play-fill" id="toggle-icon"></i>
+            <i onclick="playBtn(), playAudio()" class="ri-play-fill" id="toggle-icon"></i>
         </div>
     </div>
-    <button onclick="toggleDiv()">Click me</button>
+    <audio id="forest-audio">
+        <source src="audio/272417__lextrack__forest-ambience.mp3" type="audio/mp3">
+      </audio>
+    <button id="toggle-div" onclick="toggleDiv()">Hide Menu</button>
     <script src="js/scripts.js"></script>
 </body>
 </html>
