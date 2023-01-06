@@ -15,6 +15,23 @@ a {
     padding-top: 8em;
 }
 
+#sea {
+    background: url(../images/11-sea.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#rain {
+    background: url(../images/10-rain.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+#forest {
+    background: url(../images/5.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+
 #index-h1 {
     text-align: center;
     font-size: 40px;
@@ -47,7 +64,6 @@ a {
 }
 
 body {
-    background: url(../images/11-sea.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 nav {
