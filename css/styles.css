@@ -2,13 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#index {
+    background: lightblue;
+    padding-top: 8em;
+}
+
+#index-h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#index-p {
+    text-align: center;
+    width: 80%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#index-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card-container {
+    text-align: center;
+    padding: 10px;
+}
 
 body {
-    background: url(../images/3.jpg) no-repeat center center fixed;
+    background: url(../images/11-sea.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+nav {
+    font-size: 20px; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 0;
+    font-weight: bold;
+}
+
+#about {
+    margin-top: 100px;
+}
+
+li {
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: cornflowerblue;
 }
 
 .container {
@@ -36,12 +104,13 @@ body {
 .timer-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 button {
     width: 140px;
-    height: 70px;
+    height: 40px;
+    margin-right: 2em;
     background: transparent;
     cursor: pointer;
     font-size: 20px;

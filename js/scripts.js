@@ -2,39 +2,14 @@ const seabtn = document.getElementById('sea');
 const rainbtn = document.getElementById('rain');
 const forestbtn = document.getElementById('forest');
 
-
-
-seabtn.addEventListener('click', function onClick(event) {
-  
-    document.body.style.background = "url('./images/3.jpg') no-repeat center center fixed";
-    document.body.style.backgroundSize = 'cover';
-    document.body.style.transition = '0.01s';
-
-});
-
-rainbtn.addEventListener('click', function onClick(event) {
-  
-    document.body.style.background = "url('./images/7.jpg') no-repeat center center fixed";
-    document.body.style.backgroundSize = 'cover';
-    document.body.style.transition = '0.01s';
-});
-
-forestbtn.addEventListener('click', function onClick(event) {
-  
-    document.body.style.background = "url('./images/5.jpg') no-repeat center center fixed";
-    document.body.style.backgroundSize = 'cover';
-    document.body.style.transition = '0.01s';
-
-});
-
 function toggleDiv() {
     let x = document.getElementById("nature");
     if (x.style.display === "none") {
       x.style.display = "block";
-      document.getElementById('toggle-div').innerHTML = "Hide Menu";
+      document.getElementById('toggle-div').innerHTML = "Hide Player";
     } else {
       x.style.display = "none";
-      document.getElementById('toggle-div').innerHTML = "Show Menu";
+      document.getElementById('toggle-div').innerHTML = "Show Player";
     }
 }
 
@@ -47,9 +22,7 @@ function playBtn() {
     }
   }
 
-
-  
-  function playAudio() {
+function playAudio() {
     let audioElement= document.getElementById("forest-audio");
     if (audioElement.paused) {
         audioElement.play();

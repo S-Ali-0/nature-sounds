@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sounds Of Nature</title>
+    <title>Sounds of Nature</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container" id="nature">
-        <div class="button-container">
-            <button id="sea">Sea</button>
-            <button id="rain">Rain</button>
-            <button id="forest">Forest</button>
+<body id="index">
+    <h1 id="index-h1">Sounds of Nature</h1>
+    <p id="index-p">Surround yourself and you're bound to escape with the sound.</p>
+    <div id="index-container">
+        <div class="card">
+            <a href="../nature-sounds/sea.html">
+                <img src="../nature-sounds/images/11-sea.jpg" alt="Avatar" style="width:100%">
+                <div class="card-container">
+                    <h4><b>Sea</b></h4>
+                    <p>Listen to the waves of the sea.</p>
+                </div>
+            </a>    
         </div>
-        <div class="timer-container">
-            <i onclick="playBtn(), playAudio()" class="ri-play-fill" id="toggle-icon"></i>
+          
+        <div class="card">
+            <img src="../nature-sounds/images/10-rain.jpg" alt="Avatar" style="width:100%">
+            <div class="card-container">
+                <h4><b>Rain</b></h4>
+                <p>Listen to the falling rain.</p>
+            </div>
+        </div>
+          
+        <div class="card">
+            <img src="../nature-sounds/images/5.jpg" alt="Avatar" style="width:100%">
+            <div class="card-container">
+                <h4><b>Forest</b></h4>
+                <p>Listen to the calming forest.</p>
+            </div>
         </div>
     </div>
-    <audio id="forest-audio">
-        <source src="audio/272417__lextrack__forest-ambience.mp3" type="audio/mp3">
-      </audio>
-    <button id="toggle-div" onclick="toggleDiv()">Hide Menu</button>
-    <script src="js/scripts.js"></script>
 </body>
 </html>
