@@ -32,4 +32,8 @@ function playAudio() {
     }
 };
 
- 
+let volume = document.getElementById('volume-slider');
+let audio= document.getElementById("forest-audio");
+volume.addEventListener("change", function(e) {
+    audio.volume = e.currentTarget.value / 100;
+})

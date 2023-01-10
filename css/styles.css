@@ -33,13 +33,14 @@ a {
 
 
 #forest {
-    background: url(../images/5.jpg) no-repeat center center fixed;
+    background: url(../images/tienko-dima-uYoVf9I6ANI-unsplash.jpg) no-repeat center center fixed;
     background-size: cover; 
 }
 
 #index-h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
+    text-transform: uppercase;
 }
 
 #index-p2 {
@@ -128,10 +129,14 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
-.timer-container {
+.player-container {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+}
+
+.volume-container {
+    text-align: center;
 }
 
 button {
