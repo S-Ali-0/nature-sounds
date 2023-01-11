@@ -40,12 +40,12 @@ a {
 }
 
 .toggle-sea-style:hover {
-    border: 2px solid blue;
-    color: blue;
+    border: 2px solid steelblue;
+    color: steelblue;
 }
 
 #a-sea-style:hover {
-    color: blue;
+    color: steelblue;
 }
 
 .toggle-rain-style {
@@ -68,12 +68,12 @@ a {
 }
 
 .toggle-forest-style:hover {
-    border: 2px solid green;
-    color: green;
+    border: 2px solid springgreen;
+    color: springgreen;
 } 
 
 #a-forest-style:hover {
-    color: green;
+    color: springgreen;
 }
 
 
