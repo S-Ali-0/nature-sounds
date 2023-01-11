@@ -15,10 +15,10 @@ function toggleDiv() {
 
 function playBtn() {
     const element = document.getElementById("toggle-icon");
-    if (element.className == "ri-play-fill") {
+    if (element.className == "ri-play-circle-line") {
       element.className = "ri-pause-circle-fill";
     } else {
-      element.className = "ri-play-fill";
+      element.className = "ri-play-circle-line";
     }
   }
 

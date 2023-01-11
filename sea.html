@@ -12,13 +12,13 @@
 <body id="sea">
     <nav>
         <ul>
-            <li><a href="../nature-sounds/index.html">Home</a></li>
-            <button id="toggle-div" onclick="toggleDiv()">Hide Player</button>
+            <li><a id="a-sea-style" href="../nature-sounds/index.html">Home</a></li>
+            <button class="toggle-sea-style" id="toggle-div" onclick="toggleDiv()">Hide Player</button>
         </ul>
     </nav>
     <div class="container" id="nature">
         <div class="player-container">
-            <i onclick="playBtn(), playAudio()" class="ri-play-fill" id="toggle-icon"></i>
+            <i onclick="playBtn(), playAudio()" class="ri-play-circle-line" id="toggle-icon"></i>
         </div>
         <div class="volume-container">
             <i class="ri-volume-down-line"></i><input type="range" id="volume-slider"><i class="ri-volume-up-line"></i>

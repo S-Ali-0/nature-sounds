@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.a-light{
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -30,12 +34,48 @@ a {
     background-size: cover;
 }
 
-
-
 #forest {
     background: url(../images/tienko-dima-uYoVf9I6ANI-unsplash.jpg) no-repeat center center fixed;
     background-size: cover; 
 }
+
+.toggle-sea-style:hover {
+    border: 2px solid blue;
+    color: blue;
+}
+
+#a-sea-style:hover {
+    color: blue;
+}
+
+.toggle-rain-style {
+    border: 2px solid white;
+    color: white;
+}
+
+.toggle-rain-style:hover {
+    border: 2px solid orange;
+    color: orange;
+} 
+
+#a-rain-style:hover {
+    color: orange;
+}
+
+.toggle-forest-style {
+    border: 2px solid white;
+    color: white;
+}
+
+.toggle-forest-style:hover {
+    border: 2px solid green;
+    color: green;
+} 
+
+#a-forest-style:hover {
+    color: green;
+}
+
 
 #index-h1 {
     text-align: center;
@@ -99,14 +139,6 @@ li {
     margin-right: 2rem;
 }
 
-nav ul li a {
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: cornflowerblue;
-}
-
 .container {
     width: 600px;
     height: 400px;
@@ -129,10 +161,27 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
+input[type=range] {
+    accent-color: ghostwhite;
+    width: 200px;
+    height: 23px;
+}
+
+.ri-volume-down-line {
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.ri-volume-up-line {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
 .player-container {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .volume-container {
@@ -151,10 +200,10 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  
 }
 
-.ri-play-fill, .ri-pause-circle-fill {
-    font-size: 170px;
+.ri-play-circle-line, .ri-pause-circle-fill {
+    font-size: 150px;
     cursor: pointer;
 }
