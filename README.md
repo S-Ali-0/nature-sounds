@@ -1,1 +1,2 @@
 # nature-sounds
+## Work in progress. Currently working on functionality and responsiveness. Changes to homepage to be made. Design not yet finalised. Gradient background is currently being used but will be changed for something more modern.
