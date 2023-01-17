@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+#myVideo {
+    width: 100%;    
+  }
+
 .a-light{
     color: white;
 }
@@ -199,11 +203,19 @@ button {
     border-radius: 5px;  
 }
 
-button:hover {
-  
-}
-
 .ri-play-circle-line, .ri-pause-circle-fill {
     font-size: 150px;
     cursor: pointer;
+}
+
+@media screen and (min-width:415px) {
+    #forest-height {
+        height:266.66px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    #index-container {
+        padding: 20px;
+    }
 }
