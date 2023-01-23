@@ -46,10 +46,12 @@ a {
 .toggle-sea-style:hover {
     border: 2px solid steelblue;
     color: steelblue;
+    transition: 0.15s ease-in-out;
 }
 
 #a-sea-style:hover {
     color: steelblue;
+    transition: 0.15s ease-in-out;
 }
 
 .toggle-rain-style {
@@ -60,10 +62,12 @@ a {
 .toggle-rain-style:hover {
     border: 2px solid orange;
     color: orange;
+    transition: 0.15s ease-in-out;
 } 
 
 #a-rain-style:hover {
     color: orange;
+    transition: 0.15s ease-in-out;
 }
 
 .toggle-forest-style {
@@ -74,10 +78,12 @@ a {
 .toggle-forest-style:hover {
     border: 2px solid springgreen;
     color: springgreen;
+    transition: 0.15s ease-in-out;
 } 
 
 #a-forest-style:hover {
     color: springgreen;
+    transition: 0.15s ease-in-out;
 }
 
 
@@ -144,8 +150,8 @@ li {
 }
 
 .container {
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 350px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -166,7 +172,7 @@ li {
 }
 
 input[type=range] {
-    accent-color: ghostwhite;
+    accent-color: black;
     width: 200px;
     height: 23px;
 }
@@ -184,7 +190,7 @@ input[type=range] {
 .player-container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 20px;
 }
 
